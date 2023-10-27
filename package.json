@@ -1,0 +1,31 @@
+{
+  "name": "market-monitor-bot",
+  "version": "0.1.0",
+  "author": {
+    "name": "kallydev",
+    "url": "https://github.com/kallydev"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kallydev/market-monitor.git"
+  },
+  "scripts": {
+    "start": "ts-node ./src/main.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "cron": "^1.8.2",
+    "dotenv": "^16.0.0",
+    "pg": "^8.7.3",
+    "telegraf": "^4.7.0",
+    "web3": "^1.7.0"
+  },
+  "devDependencies": {
+    "@types/cron": "^1.7.3",
+    "@types/node": "^17.0.18",
+    "@types/pg": "^8.6.4",
+    "ts-node": "^10.5.0",
+    "typescript": "^4.5.5"
+  }
+}
